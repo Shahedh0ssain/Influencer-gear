@@ -56,10 +56,16 @@ main{
     font-size: 24px;
     color:#3A3A3A;
 }
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
 .coll-items{
     margin: 0;
-    width: 329px;
-    height: 476px;
+    /* width: 300px; */
+    /* height: 476px; */
     padding: 15px;
     border-radius: 5px;
     background-color: rebeccapurple;
@@ -71,8 +77,10 @@ main{
     /* display: flex;
    justify-content: center; */
    padding:15px;
-   width: 300px;
-   height: 265px;
+   /* padding-bottom: 0; */
+
+   /* width: 270px;
+   height: 265px; */
 }
 .thumbnail img{
     width: 100%;
@@ -83,8 +91,8 @@ main{
 
 }
 .coll-info{
-    padding:  0 15px;
-    padding-bottom: 15px;
+    padding: 15px;
+    /* padding-bottom: 15px; */
 }
 .item-review{
     width:150px;
