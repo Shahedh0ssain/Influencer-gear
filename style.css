@@ -1,0 +1,45 @@
+
+/* font */
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+
+}
+.container{
+    width: 1080px;
+}
+/* commen styels end */
+
+/* influencer showcase */
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.hero-text{
+    width: 582px;
+    height: 270px;
+}
+.section-title{
+    font-size: 40px;
+    margin: 10px 0px;
+    line-height: 50pxpx;
+}
+.hero-text p{
+    font-size: 16px;
+}
+.btn{
+  width: 196px;
+  height: 44px;
+  background-color: #E02C6D;  
+}
+.hero-image img{
+    width: 440px;
+    height: 414px;
+}
