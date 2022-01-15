@@ -16,16 +16,36 @@ main{
 .max-container{
     width: 90%;
     padding: 5%;
-    background-color: yellowgreen;
+    background-color:#FFFFFF;
    }
 .container{
     width: 1080px;
     padding: 30px;
-    background-color: aqua; 
+    background-color:#FFFFFF; 
 }
 /* commen styels end */
 
 /* influencer showcase */
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-around;
+
+}
+.navigation li{
+    list-style: none;
+    padding-left: 15px;
+    font-size: 18px;
+}
+.logo-text{
+    font-size: 24px;
+    font-weight: 600;
+}
 .hero-section{
     display: flex;
     align-items: center;
@@ -72,6 +92,7 @@ main{
     text-align: center;
     font-size: 24px;
     color:#3A3A3A;
+    margin-bottom: 30px;
 }
 .collection{
     display: grid;
@@ -85,7 +106,7 @@ main{
     /* height: 476px; */
     padding: 15px;
     border-radius: 5px;
-    background-color: rebeccapurple;
+    background-color: #e9e7e7;
 }
 .coll-items,h3,p{
     margin: 0;
@@ -147,7 +168,7 @@ main{
 .footer-title{
     color:#FFFFFF;
     font-size: 24px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 40px;
 }
 .copyright-text{
